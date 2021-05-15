@@ -1,0 +1,30 @@
+*{
+  background-color: brown;
+  padding:4px 50px;
+    text align: center;
+}
+body{
+  color:white
+  }
+.heading{
+  color :grey;
+     text align: center;
+}
+.footer{
+  color:grey;
+  
+}
+#inputValue{
+  width:50px;
+  font-size:10px;
+  padding:6px 35px;
+}
+button{
+  color:orange;
+  background-color:white;
+  font-size:15px;
+}
+p
+{
+  color:grey;
+}
