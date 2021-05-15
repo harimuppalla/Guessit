@@ -1,0 +1,15 @@
+var systemGuess=Math.round(Math.random()*100);
+function checkNumber(){
+  var userInput=document.getElementById("inputValue").value;
+  var resultContainer=document.getElementById("result");
+  if(userInput==systemGuess){
+    resultContainer.textContent="Hey its a correct Guess";
+    }
+  else{
+    if(userInput>systemGuess){
+      resultContainer.textContent="Hey your value is too high";}
+    else{
+  resultContainer.textContent="Hey your value is too low ";
+    }
+    }
+     }
